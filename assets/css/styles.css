@@ -1,3 +1,15 @@
-.markdown-body>*:first-child {
-    display: none
+body > main {
+    margin: 0 15%;
+    min-width: 800px;
+    background-color: #ccc;
+    display: flex;
+}
+
+.leftCol {
+    width: 35%;
+    text-align: left;
+    color: #fff;
+    color: hsla(0, 0%, 100%, .59);
+    background-color: #16151c;
+    overflow: hidden;
 }
